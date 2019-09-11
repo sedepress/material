@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33424c68-2905-4b7d-b545-dd2bbb22f398" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/../zlm/.env.prod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/CacheModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/CacheModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelBuffetCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelBuffetCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelMeetingRoomCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelMeetingRoomCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelRoomCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelRoomCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/MallGoodsCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/MallGoodsCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Commands/ExportScore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Commands/RepaireData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Commands/Schedules/RefundRecordSchedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Console/Commands/Schedules/RefundRecordSchedule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Commands/Schedules/ScoreStatementSchedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Console/Commands/Schedules/ScoreStatementSchedule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Commands/Schedules/ZoneSchedule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/HotelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/HotelController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/HotelOrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/HotelOrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/ImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/ImageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/MallOrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/MallOrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/UserDeliveryAddressController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/UserDeliveryAddressController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/WeChatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/WeChatController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/ZoneArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/ZoneArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/OldController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/HotelBuffetOrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/HotelBuffetOrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ImageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ScoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ScoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ZoneArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ZoneArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/WeChatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/WeChatController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Libs/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Libs/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Models/Hotel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Models/Hotel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Models/HotelRoom.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Models/HotelRoom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Models/Zone.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Models/Zone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Observers/HotelObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Observers/HotelObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Observers/HotelOrderObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Observers/HotelOrderObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Observers/MallGoodsObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Observers/MallGoodsObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/app/Observers/UserObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Observers/UserObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/config/base_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/config/base_config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/database/migrations/2017_09_07_155111_create_hotel_order_details_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/migrations/2017_09_07_155111_create_hotel_order_details_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/database/migrations/2017_10_26_103319_create_score_monthly_statements_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/migrations/2017_10_26_103319_create_score_monthly_statements_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/database/migrations/2018_03_31_215631_hotel_meeting_room_add_cache_updated_at_column.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/database/seeds/sync/AreaTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/seeds/sync/AreaTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/database/seeds/sync/HotelOrderTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/seeds/sync/HotelOrderTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/database/seeds/sync/RefundRecordsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/seeds/sync/RefundRecordsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/database/seeds/sync/ScoreRecordsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/seeds/sync/ScoreRecordsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/public/MP_verify_kIN3xoGGB7rtKT1v.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/resources/views/backend/pc_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/resources/views/backend/pc_index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/resources/views/client/mobile_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/resources/views/client/mobile_index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/routes/api/mobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/routes/api/mobile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zlm/score/score.xls" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../zlm" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Qfsn8nmU8GXMFq8OplLmrMkyhG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/index" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\Material\resources\views\index" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33424c68-2905-4b7d-b545-dd2bbb22f398" name="默认更改列表" comment="" />
+      <created>1568173148294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568173148294</updated>
+      <workItem from="1568173149490" duration="12939000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
