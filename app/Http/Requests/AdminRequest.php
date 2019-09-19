@@ -11,18 +11,31 @@ class AdminRequest extends Request
      */
     public function rules()
     {
-        return [
-            'username' => 'required|unique:admins',
-            'nickname' => 'required|unique:admins',
-            'password' => 'required|between:6,12',
-            'repass'   => 'required|same:password',
-        ];
+        switch ($this->method())
+        {
+            case 'POST':
+                return [
+                    'username' => 'required|unique:admins',
+                    'nickname' => 'required|unique:admins',
+                    'password' => 'required|between:6,12',
+                    'repass'   => 'required|same:password',
+                ];
+            case 'PUT':
+                return [
+                    'username' => 'required|unique:admins,username,' . $this->route('admin')->id,
+                    'nickname' => 'required|unique:admins,nickname,' . $this->route('admin')->id,
+                    'password' => 'required|between:6,12',
+                    'repass'   => 'required|same:password',
+                ];
+            default:
+                return [];
+        }
     }
 
     public function attributes()
     {
         return [
-            'username' => '用户名',
+            'username' => '登录名',
             'password' => '密码',
             'nickname' => '昵称',
             'repass'   => '确认密码',

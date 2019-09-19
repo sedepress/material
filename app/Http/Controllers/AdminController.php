@@ -3,21 +3,42 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\AdminRequest;
+use App\Models\Admin;
+use App\Libs\StatusCode;
 
-class AdminController extends Controller
+class AdminController extends BaseController
 {
-    public function index()
+    public function index(Admin $admin)
     {
-        return view('admin.index');
+        $admins = Admin::paginate(10);
+
+        return view('admin.index', compact('admins'));
     }
 
-    public function create()
+    public function create(Admin $admin)
     {
-        return view('admin.create');
+        return view('admin.create_and_edit', compact('admin'));
     }
 
-    public function store(AdminRequest $request)
+    public function store(AdminRequest $request, Admin $admin)
     {
-        dump($request->all());
+        $admin->fill($request->all());
+        $admin->save();
+
+        $msg = '创建成功';
+        return $this->responseJson(StatusCode::SUCCESS, $msg);
+    }
+
+    public function edit(Admin $admin)
+    {
+        return view('admin.create_and_edit', compact('admin'));
+    }
+
+    public function update(AdminRequest $request, Admin $admin)
+    {
+        $admin->update($request->all());
+
+        $msg = '修改成功';
+        return $this->responseJson(StatusCode::SUCCESS, $msg);
     }
 }

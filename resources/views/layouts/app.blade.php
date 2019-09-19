@@ -13,6 +13,7 @@
     <!-- <link rel="stylesheet" href="./css/theme5.css"> -->
     <script src="{{ asset('lib/layui/layui.js') }}" charset="utf-8"></script>
     <script type="text/javascript" src="{{ asset('js/xadmin.js') }}"></script>
+    <script src="{{ asset('js/sweetalert.min.js') }}"></script>
     <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
     <!--[if lt IE 9]>
     <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
@@ -26,5 +27,7 @@
 <body class="index">
 @yield('content')
 @yield('scriptsAfterJs')
+@include('layouts.error')
+{{--@include('layouts.message')--}}
 </body>
 </html>
