@@ -81,7 +81,7 @@
                                         <a title="编辑" onclick="xadmin.open('编辑', '{{ route('admin.edit', $admin->id) }}',600,400)" href="javascript:;">
                                             <i class="layui-icon">&#xe642;</i>
                                         </a>
-                                        <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
+                                        <a title="删除" onclick="member_del(this,'{{ route('admin.destroy', $admin->id) }}')" href="javascript:;">
                                             <i class="layui-icon">&#xe640;</i>
                                         </a>
                                     </td>
@@ -142,11 +142,27 @@
         }
 
         /*用户-删除*/
-        function member_del(obj, id) {
+        function member_del(obj, url) {
             layer.confirm('确认要删除吗？', function (index) {
                 //发异步删除数据
-                $(obj).parents("tr").remove();
-                layer.msg('已删除!', {icon: 1, time: 1000});
+                var csrftoken = $('meta[name="csrf-token"]').attr('content');
+
+                $.ajax({
+                    type: 'delete',
+                    url: url,
+                    headers: {"X-CSRF-TOKEN": csrftoken},
+                    success: function (res) {
+                        if (res.code == 200) {
+                            $(obj).parents("tr").remove();
+                            layer.msg('已删除!', {icon: 1, time: 1000});
+                        } else {
+                            layer.msg('系统异常!', {icon: 5, time: 1000});
+                        }
+                    },
+                    error: function (res) {
+                        layer.msg('系统异常!', {icon: 5, time: 1000});
+                    }
+                })
             });
         }
 

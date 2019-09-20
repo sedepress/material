@@ -33,6 +33,7 @@
                         <span class="x-red">*</span>
                     </div>
                 </div>
+                @if(!$admin->id)
                 <div class="layui-form-item">
                     <label for="L_pass" class="layui-form-label">
                         <span class="x-red">*</span>密码
@@ -54,6 +55,7 @@
                                autocomplete="off" class="layui-input">
                     </div>
                 </div>
+                @endif
                 <div class="layui-form-item">
                     <label for="L_repass" class="layui-form-label">
                     </label>

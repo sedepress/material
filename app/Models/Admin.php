@@ -13,4 +13,9 @@ class Admin extends Model
     protected $casts = [
         'status' => 'boolean',
     ];
+
+    public function setPasswordAttribute($value)
+    {
+        $this->attributes['password'] = bcrypt($value);
+    }
 }

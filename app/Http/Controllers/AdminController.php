@@ -41,4 +41,12 @@ class AdminController extends BaseController
         $msg = '修改成功';
         return $this->responseJson(StatusCode::SUCCESS, $msg);
     }
+
+    public function destroy(Admin $admin)
+    {
+        $admin->delete();
+
+        $msg = '删除成功';
+        return $this->responseJson(StatusCode::SUCCESS, $msg);
+    }
 }

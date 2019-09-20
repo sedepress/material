@@ -24,8 +24,6 @@ class AdminRequest extends Request
                 return [
                     'username' => 'required|unique:admins,username,' . $this->route('admin')->id,
                     'nickname' => 'required|unique:admins,nickname,' . $this->route('admin')->id,
-                    'password' => 'required|between:6,12',
-                    'repass'   => 'required|same:password',
                 ];
             default:
                 return [];

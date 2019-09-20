@@ -15,4 +15,9 @@ class IndexController extends BaseController
     {
         return view('index.welcome');
     }
+
+    public function login()
+    {
+
+    }
 }
