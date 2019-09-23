@@ -31,7 +31,7 @@
             </ul>
             <ul class="layui-nav right" lay-filter="">
                 <li class="layui-nav-item">
-                    <a href="javascript:;">admin</a>
+                    <a href="javascript:;">{{ Auth::user()->nickname }}</a>
                     <dl class="layui-nav-child">
                         <!-- 二级菜单 -->
                         <dd>
@@ -39,7 +39,11 @@
                         <dd>
                             <a onclick="xadmin.open('切换帐号','http://www.baidu.com')">切换帐号</a></dd>
                         <dd>
-                            <a href="./login.html">退出</a></dd>
+                            <form id="_form" action="{{ route('logout') }}" method="POST">
+                                @csrf
+                                <a onclick="document.getElementById('_form').submit();">退出</a>
+                            </form>
+                        </dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item to-index">
