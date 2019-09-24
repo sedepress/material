@@ -2,73 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7c4e09-7650-4970-b10a-fe08279d8e79" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DepartmentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/DepartmentRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Department.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_09_24_135831_create_departments_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_09_24_141443_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/change_password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dep/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Material.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Material.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/AdminRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/AdminRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/create_and_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/create_and_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/member-password.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/.env.prod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/CacheModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/CacheModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelBuffetCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelBuffetCache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelCache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelMeetingRoomCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelMeetingRoomCache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelRoomCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/HotelRoomCache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/CacheModels/MallGoodsCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/CacheModels/MallGoodsCache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Commands/ExportScore.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Commands/RepaireData.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Commands/Schedules/RefundRecordSchedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Console/Commands/Schedules/RefundRecordSchedule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Commands/Schedules/ScoreStatementSchedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Console/Commands/Schedules/ScoreStatementSchedule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Commands/Schedules/ZoneSchedule.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/HotelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/HotelController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/HotelOrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/HotelOrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/ImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/ImageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/MallOrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/MallOrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/UserDeliveryAddressController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/UserDeliveryAddressController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/WeChatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/WeChatController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/ZoneArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Mobile/ZoneArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/OldController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/HotelBuffetOrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/HotelBuffetOrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ImageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ScoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ScoreController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ZoneArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/Pc/ZoneArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Controllers/WeChatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Controllers/WeChatController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Libs/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Libs/Helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Models/Hotel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Models/Hotel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Models/HotelRoom.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Models/HotelRoom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Models/Zone.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Models/Zone.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Observers/HotelObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Observers/HotelObserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Observers/HotelOrderObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Observers/HotelOrderObserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Observers/MallGoodsObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Observers/MallGoodsObserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/app/Observers/UserObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/app/Observers/UserObserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/config/base_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/config/base_config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/database/migrations/2017_09_07_155111_create_hotel_order_details_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/migrations/2017_09_07_155111_create_hotel_order_details_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/database/migrations/2017_10_26_103319_create_score_monthly_statements_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/migrations/2017_10_26_103319_create_score_monthly_statements_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/database/migrations/2018_03_31_215631_hotel_meeting_room_add_cache_updated_at_column.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/database/seeds/sync/AreaTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/seeds/sync/AreaTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/database/seeds/sync/HotelOrderTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/seeds/sync/HotelOrderTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/database/seeds/sync/RefundRecordsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/seeds/sync/RefundRecordsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/database/seeds/sync/ScoreRecordsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/database/seeds/sync/ScoreRecordsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/public/MP_verify_kIN3xoGGB7rtKT1v.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/resources/views/backend/pc_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/resources/views/backend/pc_index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/resources/views/client/mobile_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/resources/views/client/mobile_index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/routes/api/mobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/routes/api/mobile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../zlm/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zlm/score/score.xls" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,24 +146,32 @@
   </component>
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" />
   <component name="ProjectId" id="1Qfsn8nmU8GXMFq8OplLmrMkyhG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../zlm" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\Material\app\Http\Requests" />
+      <recent name="E:\Code\Material\resources\views\dep" />
       <recent name="E:\Code\Material\resources\views\index" />
       <recent name="E:\Code\Material\resources\views\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Code\Material\resources\js" />
       <recent name="E:\Code\Material\resources\views\admin" />
+      <recent name="E:\Code\Material\resources\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,5 +234,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

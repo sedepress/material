@@ -35,9 +35,8 @@
                     <dl class="layui-nav-child">
                         <!-- 二级菜单 -->
                         <dd>
-                            <a onclick="xadmin.open('个人信息','http://www.baidu.com')">个人信息</a></dd>
-                        <dd>
-                            <a onclick="xadmin.open('切换帐号','http://www.baidu.com')">切换帐号</a></dd>
+                            <a onclick="xadmin.open('修改密码', '{{ route('change_pwd_form', Auth::user()->id) }}', 600, 400)">修改密码</a>
+                        </dd>
                         <dd>
                             <form id="_form" action="{{ route('logout') }}" method="POST">
                                 @csrf
@@ -122,14 +121,14 @@
                     </li>
                     <li>
                         <a href="javascript:;">
-                            <i class="iconfont left-nav-li" lay-tips="分类管理">&#xe723;</i>
-                            <cite>分类管理</cite>
+                            <i class="iconfont left-nav-li" lay-tips="部门管理">&#xe723;</i>
+                            <cite>部门管理</cite>
                             <i class="iconfont nav_right">&#xe697;</i></a>
                         <ul class="sub-menu">
                             <li>
-                                <a onclick="xadmin.add_tab('多级分类','cate.html')">
+                                <a onclick="xadmin.add_tab('组织架构', '{{ route('dep.index') }}')">
                                     <i class="iconfont">&#xe6a7;</i>
-                                    <cite>多级分类</cite></a>
+                                    <cite>组织架构</cite></a>
                             </li>
                         </ul>
                     </li>

@@ -68,8 +68,8 @@
     </div>
 @endsection
 @section('scriptsAfterJs')
-    @include('layouts.error')
-    <script>layui.use(['form', 'layer'],
+    <script>
+        layui.use(['form', 'layer'],
             function () {
                 $ = layui.jquery;
                 var form = layui.form,

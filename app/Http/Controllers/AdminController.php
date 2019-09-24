@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\AdminRequest;
 use App\Models\Admin;
 use App\Libs\StatusCode;
+use Illuminate\Support\Facades\Hash;
 
 class AdminController extends BaseController
 {
@@ -47,6 +48,27 @@ class AdminController extends BaseController
         $admin->delete();
 
         $msg = '删除成功';
+        return $this->responseJson(StatusCode::SUCCESS, $msg);
+    }
+
+    public function changePwdForm(Admin $admin)
+    {
+        return view('admin.change_password', compact('admin'));
+    }
+
+    public function changePwd(AdminRequest $request, Admin $admin)
+    {
+        $password = $request->all(['oldpass', 'newpass']);
+
+        if (!$admin->verifyPassword($password['oldpass'])) {
+            $msg = '密码错误';
+            return $this->responseJson(StatusCode::BAD_REQUEST, $msg);
+        }
+
+        $admin->password = $password['newpass'];
+        $admin->save();
+
+        $msg = '修改成功';
         return $this->responseJson(StatusCode::SUCCESS, $msg);
     }
 }
