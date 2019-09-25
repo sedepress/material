@@ -11,10 +11,20 @@ class DepartmentRequest extends Request
      */
     public function rules()
     {
-        return [
-            'name' => 'required|unique:departments',
-            'parent_id' => 'required',
-            'level' => 'required',
-        ];
+        switch ($this->method())
+        {
+            case 'POST':
+                return [
+                    'name' => 'required|unique:departments',
+                    'parent_id' => 'required',
+                    'level' => 'required',
+                ];
+            case 'PUT':
+                return [
+                    'name' => 'required|unique:departments',
+                ];
+            default:
+                return [];
+        }
     }
 }

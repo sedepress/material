@@ -23,5 +23,9 @@ Route::get('/admin/{admin}/change_password', 'AdminController@changePwdForm')->n
 Route::patch('/admin/{admin}/change_password', 'AdminController@changePwd')->name('change_pwd');
 Route::get('/dep', 'DepartmentController@index')->name('dep.index');
 Route::post('/dep', 'DepartmentController@store')->name('dep.store');
+Route::get('/dep/{department}/create', 'DepartmentController@create')->name('dep.create');
+Route::delete('/dep/{department}', 'DepartmentController@destroy')->name('dep.destroy');
+Route::get('/dep/{department}/edit', 'DepartmentController@edit')->name('dep.edit');
+Route::put('/dep/{department}', 'DepartmentController@update')->name('dep.update');
 
 Auth::routes(['register' => false]);

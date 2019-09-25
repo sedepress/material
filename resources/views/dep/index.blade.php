@@ -28,9 +28,6 @@
                                 </button>
                             </div>
                         </form>
-                        <hr>
-                        <blockquote class="layui-elem-quote">每个tr 上有两个属性 cate-id='1' 当前分类id fid='0' 父级id ,顶级分类为
-                            0，有子分类的前面加收缩图标<i class="layui-icon x-show" status='true'>&#xe623;</i></blockquote>
                     </div>
                     <div class="layui-card-header">
                         <button class="layui-btn layui-btn-danger" onclick="delAll()">
@@ -45,125 +42,108 @@
                                     <input type="checkbox" name="" lay-skin="primary">
                                 </th>
                                 <th width="70">ID</th>
-                                <th>栏目名</th>
-                                <th width="50">排序</th>
+                                <th>组织架构名称</th>
                                 <th width="80">状态</th>
                                 <th width="250">操作</th>
                             </thead>
                             <tbody class="x-cate">
-                            <tr cate-id='1' fid='0'>
-                                <td>
-                                    <input type="checkbox" name="" lay-skin="primary">
-                                </td>
-                                <td>1</td>
-                                <td>
-                                    <i class="layui-icon x-show" status='true'>&#xe623;</i>
-                                    产品管理
-                                </td>
-                                <td><input type="text" class="layui-input x-sort" name="order" value="1"></td>
-                                <td>
-                                    <input type="checkbox" name="switch" lay-text="开启|停用" checked="" lay-skin="switch">
-                                </td>
-                                <td class="td-manage">
-                                    <button class="layui-btn layui-btn layui-btn-xs"
-                                            onclick="xadmin.open('编辑','admin-edit.html')"><i
-                                            class="layui-icon">&#xe642;</i>编辑
-                                    </button>
-                                    <button class="layui-btn layui-btn-warm layui-btn-xs"
-                                            onclick="xadmin.open('编辑','admin-edit.html')"><i
-                                            class="layui-icon">&#xe642;</i>添加子栏目
-                                    </button>
-                                    <button class="layui-btn-danger layui-btn layui-btn-xs"
-                                            onclick="member_del(this,'要删除的id')" href="javascript:;"><i
-                                            class="layui-icon">&#xe640;</i>删除
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr cate-id='2' fid='1'>
-                                <td>
-                                    <input type="checkbox" name="" lay-skin="primary">
-                                </td>
-                                <td>2</td>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;
-                                    <i class="layui-icon x-show" status='true'>&#xe623;</i>
-                                    产品列表
-                                </td>
-                                <td><input type="text" class="layui-input x-sort" name="order" value="1"></td>
-                                <td>
-                                    <input type="checkbox" name="switch" lay-text="开启|停用" checked="" lay-skin="switch">
-                                </td>
-                                <td class="td-manage">
-                                    <button class="layui-btn layui-btn layui-btn-xs"
-                                            onclick="xadmin.open('编辑','admin-edit.html')"><i
-                                            class="layui-icon">&#xe642;</i>编辑
-                                    </button>
-                                    <button class="layui-btn layui-btn-warm layui-btn-xs"
-                                            onclick="xadmin.open('编辑','admin-edit.html')"><i
-                                            class="layui-icon">&#xe642;</i>添加子栏目
-                                    </button>
-                                    <button class="layui-btn-danger layui-btn layui-btn-xs"
-                                            onclick="member_del(this,'要删除的id')" href="javascript:;"><i
-                                            class="layui-icon">&#xe640;</i>删除
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr cate-id='3' fid='2'>
-                                <td>
-                                    <input type="checkbox" name="" lay-skin="primary">
-                                </td>
-                                <td>3</td>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    ├产品列表
-                                </td>
-                                <td><input type="text" class="layui-input x-sort" name="order" value="1"></td>
-                                <td>
-                                    <input type="checkbox" name="switch" lay-text="开启|停用" checked="" lay-skin="switch">
-                                </td>
-                                <td class="td-manage">
-                                    <button class="layui-btn layui-btn layui-btn-xs"
-                                            onclick="xadmin.open('编辑','admin-edit.html')"><i
-                                            class="layui-icon">&#xe642;</i>编辑
-                                    </button>
-                                    <button class="layui-btn layui-btn-warm layui-btn-xs"
-                                            onclick="xadmin.open('编辑','admin-edit.html')"><i
-                                            class="layui-icon">&#xe642;</i>添加子栏目
-                                    </button>
-                                    <button class="layui-btn-danger layui-btn layui-btn-xs"
-                                            onclick="member_del(this,'要删除的id')" href="javascript:;"><i
-                                            class="layui-icon">&#xe640;</i>删除
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr cate-id='4' fid='2'>
-                                <td>
-                                    <input type="checkbox" name="" lay-skin="primary">
-                                </td>
-                                <td>4</td>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    ├产品列表
-                                </td>
-                                <td><input type="text" class="layui-input x-sort" name="order" value="1"></td>
-                                <td>
-                                    <input type="checkbox" name="switch" lay-text="开启|停用" checked="" lay-skin="switch">
-                                </td>
-                                <td class="td-manage">
-                                    <button class="layui-btn layui-btn layui-btn-xs"
-                                            onclick="xadmin.open('编辑','admin-edit.html')"><i
-                                            class="layui-icon">&#xe642;</i>编辑
-                                    </button>
-                                    <button class="layui-btn layui-btn-warm layui-btn-xs"
-                                            onclick="xadmin.open('编辑','admin-edit.html')"><i
-                                            class="layui-icon">&#xe642;</i>添加子栏目
-                                    </button>
-                                    <button class="layui-btn-danger layui-btn layui-btn-xs"
-                                            onclick="member_del(this,'要删除的id')" href="javascript:;"><i
-                                            class="layui-icon">&#xe640;</i>删除
-                                    </button>
-                                </td>
-                            </tr>
+                            @foreach($deps as $dep)
+                                <tr cate-id='{{ $dep->id }}' fid='0'>
+                                    <td>
+                                        <input type="checkbox" name="" lay-skin="primary">
+                                    </td>
+                                    <td>{{ $loop->iteration }}</td>
+                                    <td>
+                                        <i class="layui-icon x-show" status='true'>&#xe623;</i>
+                                        {{ $dep->name }}
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" name="switch" lay-text="开启|停用" checked=""
+                                               lay-skin="switch">
+                                    </td>
+                                    <td class="td-manage">
+                                        <button class="layui-btn layui-btn layui-btn-xs"
+                                                onclick="xadmin.open('编辑','{{ route('dep.edit', $dep->id) }}', 500, 200)"><i
+                                                class="layui-icon">&#xe642;</i>编辑
+                                        </button>
+                                        <button class="layui-btn layui-btn-warm layui-btn-xs"
+                                                onclick="xadmin.open('添加','{{ route('dep.create', $dep->id) }}', 500, 200)">
+                                            <i
+                                                class="layui-icon">&#xe642;</i>添加子栏目
+                                        </button>
+                                        <button class="layui-btn-danger layui-btn layui-btn-xs"
+                                                onclick="dep_del(this,'{{ route('dep.destroy', $dep->id) }}')" href="javascript:;"><i
+                                                class="layui-icon">&#xe640;</i>删除
+                                        </button>
+                                    </td>
+                                </tr>
+                                @if(count($dep['children']) > 0)
+                                    @foreach($dep['children'] as $child)
+                                        <tr cate-id='{{ $child->id }}' fid='{{ $child->parent_id }}'>
+                                            <td>
+                                                <input type="checkbox" name="" lay-skin="primary">
+                                            </td>
+                                            <td>2</td>
+                                            <td>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                                <i class="layui-icon x-show" status='true'>&#xe623;</i>
+                                                {{ $child->name }}
+                                            </td>
+                                            <td>
+                                                <input type="checkbox" name="switch" lay-text="开启|停用" checked=""
+                                                       lay-skin="switch">
+                                            </td>
+                                            <td class="td-manage">
+                                                <button class="layui-btn layui-btn layui-btn-xs"
+                                                        onclick="xadmin.open('编辑','{{ route('dep.edit', $child->id) }}', 500, 200)"><i
+                                                        class="layui-icon">&#xe642;</i>编辑
+                                                </button>
+                                                <button class="layui-btn layui-btn-warm layui-btn-xs"
+                                                        onclick="xadmin.open('添加','{{ route('dep.create', $child->id) }}', 500, 200)"><i
+                                                        class="layui-icon">&#xe642;</i>添加子栏目
+                                                </button>
+                                                <button class="layui-btn-danger layui-btn layui-btn-xs"
+                                                        onclick="dep_del(this,'{{ route('dep.destroy', $child->id) }}')" href="javascript:;"><i
+                                                        class="layui-icon">&#xe640;</i>删除
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        @if(count($child['children']) > 0)
+                                            @foreach($child['children'] as $grandson)
+                                                <tr cate-id='{{ $grandson->id }}' fid='{{ $grandson->parent_id }}'>
+                                                    <td>
+                                                        <input type="checkbox" name="" lay-skin="primary">
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        ├{{ $grandson->name }}
+                                                    </td>
+                                                    <td>
+                                                        <input type="checkbox" name="switch" lay-text="开启|停用" checked=""
+                                                               lay-skin="switch">
+                                                    </td>
+                                                    <td class="td-manage">
+                                                        <button class="layui-btn layui-btn layui-btn-xs"
+                                                                onclick="xadmin.open('编辑','{{ route('dep.edit', $grandson->id) }}', 500, 200)"><i
+                                                                class="layui-icon">&#xe642;</i>编辑
+                                                        </button>
+                                                        <button class="layui-btn layui-btn-warm layui-btn-xs"
+                                                                onclick="xadmin.open('添加','{{ route('dep.create', $grandson->id) }}', 500, 200)"><i
+                                                                class="layui-icon">&#xe642;</i>添加子栏目
+                                                        </button>
+                                                        <button class="layui-btn-danger layui-btn layui-btn-xs"
+                                                                onclick="dep_del(this,'{{ route('dep.destroy', $grandson->id) }}')" href="javascript:;">
+                                                            <i
+                                                                class="layui-icon">&#xe640;</i>删除
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            @endforeach
+                                        @endif
+                                    @endforeach
+                                @endif
+                            @endforeach
                             </tbody>
                         </table>
                     </div>
@@ -207,12 +187,28 @@
                     });
             });
 
-        /*用户-删除*/
-        function member_del(obj, id) {
+        /*部门删除-删除*/
+        function dep_del(obj, url) {
             layer.confirm('确认要删除吗？', function (index) {
                 //发异步删除数据
-                $(obj).parents("tr").remove();
-                layer.msg('已删除!', {icon: 1, time: 1000});
+                var csrftoken = $('meta[name="csrf-token"]').attr('content');
+
+                $.ajax({
+                    type: 'delete',
+                    url: url,
+                    headers: {"X-CSRF-TOKEN": csrftoken},
+                    success: function (res) {
+                        if (res.code == 200) {
+                            $(obj).parents("tr").remove();
+                            layer.msg(res.msg, {icon: 1, time: 1000});
+                        } else {
+                            layer.msg(res.msg, {icon: 5, time: 1000});
+                        }
+                    },
+                    error: function (res) {
+                        layer.msg('系统异常!', {icon: 5, time: 1000});
+                    }
+                })
             });
         }
 

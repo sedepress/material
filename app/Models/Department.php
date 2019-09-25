@@ -18,4 +18,14 @@ class Department extends Model
     {
         return $this->hasMany(User::class);
     }
+
+    public function children()
+    {
+        return $this->hasMany(Department::class, 'parent_id', 'id');
+    }
+
+    public function parent()
+    {
+        return $this->belongsTo(Department::class);
+    }
 }
