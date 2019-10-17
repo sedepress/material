@@ -18,4 +18,9 @@ class User extends Model
     {
         return $this->belongsTo(Department::class);
     }
+
+    public function materialsRecords()
+    {
+        return $this->hasMany(MaterialsReceivingRecord::class);
+    }
 }

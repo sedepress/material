@@ -2,13 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7c4e09-7650-4970-b10a-fe08279d8e79" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/dep/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dep/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Exceptions/InternalException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Exceptions/InvalidRequestException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MaterialController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MaterialsReceivingRecordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/MaterialRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/MaterialsReceivingRecordRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Libs/LogMes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Material.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/MaterialsLog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/MaterialsReceivingRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/MaterialsReceivingRecordsLog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Search/MaterialSearch/Filters/Filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Search/MaterialSearch/Filters/Name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Search/MaterialSearch/MaterialSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Search/UserSearch/Filters/Department.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Search/UserSearch/Filters/Filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Search/UserSearch/Filters/Name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Search/UserSearch/UserSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_11_105630_create_materials_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_14_164712_create_materials_logs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_16_093250_create_materials_receiving_records_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_16_132150_create_materials_receiving_records_logs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/material/adjust_stock.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/material/create_and_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/material/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/materials_record/create_and_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/materials_record/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/create_and_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Material.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Material.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DepartmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DepartmentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/DepartmentRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/DepartmentRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Department.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Department.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/debugbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/debugbar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dep/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dep/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -131,6 +167,7 @@
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
       <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" />
@@ -142,25 +179,26 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/dep" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Requests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Code\Material\resources\views\dep" />
-      <recent name="E:\Code\Material\app\Http\Requests" />
-      <recent name="E:\Code\Material\resources\views\index" />
-      <recent name="E:\Code\Material\resources\views\admin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\Material\resources\views\admin" />
       <recent name="E:\Code\Material\resources\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\Material\app\Http\Requests" />
+      <recent name="E:\Code\Material\resources\views\materials_record" />
+      <recent name="E:\Code\Material\resources\views\material" />
+      <recent name="E:\Code\Material\app\Search" />
+      <recent name="E:\Code\Material\app\Http\Controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -193,7 +231,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="33424c68-2905-4b7d-b545-dd2bbb22f398" name="默认更改列表" comment="" />
+      <changelist id="ac7c4e09-7650-4970-b10a-fe08279d8e79" name="默认更改列表" comment="" />
       <created>1568173148294</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -205,6 +243,19 @@
       <workItem from="1568777198396" duration="3042000" />
       <workItem from="1568853575297" duration="3233000" />
       <workItem from="1568865176580" duration="21161000" />
+      <workItem from="1569481558738" duration="5392000" />
+      <workItem from="1569544363769" duration="618000" />
+      <workItem from="1569547137666" duration="12719000" />
+      <workItem from="1570501450646" duration="54000" />
+      <workItem from="1570501550406" duration="1053000" />
+      <workItem from="1570504576712" duration="13528000" />
+      <workItem from="1570685083203" duration="7487000" />
+      <workItem from="1570760993514" duration="7307000" />
+      <workItem from="1570779514125" duration="946000" />
+      <workItem from="1570780545000" duration="5617000" />
+      <workItem from="1570840779781" duration="14972000" />
+      <workItem from="1571032067442" duration="28000" />
+      <workItem from="1571032152414" duration="44007000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Hash;
@@ -28,5 +27,15 @@ class Admin extends Authenticatable
     public function verifyPassword(string $password): bool
     {
         return Hash::check($password, $this->password);
+    }
+
+    public function materials()
+    {
+        return $this->hasMany(Material::class);
+    }
+
+    public function materialsLog()
+    {
+        return $this->hasMany(MaterialsLog::class);
     }
 }

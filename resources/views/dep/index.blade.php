@@ -43,7 +43,7 @@
                                 </th>
                                 <th width="70">ID</th>
                                 <th>组织架构名称</th>
-                                <th width="80">状态</th>
+{{--                                <th width="80">状态</th>--}}
                                 <th width="250">操作</th>
                             </thead>
                             <tbody class="x-cate">
@@ -57,10 +57,10 @@
                                         <i class="layui-icon x-show" status='true'>&#xe623;</i>
                                         {{ $dep->name }}
                                     </td>
-                                    <td>
-                                        <input type="checkbox" name="switch" lay-text="开启|停用" checked=""
-                                               lay-skin="switch">
-                                    </td>
+{{--                                    <td>--}}
+{{--                                        <input type="checkbox" name="switch" lay-text="开启|停用" checked=""--}}
+{{--                                               lay-skin="switch">--}}
+{{--                                    </td>--}}
                                     <td class="td-manage">
                                         <button class="layui-btn layui-btn layui-btn-xs"
                                                 onclick="xadmin.open('编辑','{{ route('dep.edit', $dep->id) }}', 500, 200)"><i
@@ -89,10 +89,10 @@
                                                 <i class="layui-icon x-show" status='true'>&#xe623;</i>
                                                 {{ $child->name }}
                                             </td>
-                                            <td>
-                                                <input type="checkbox" name="switch" lay-text="开启|停用" checked=""
-                                                       lay-skin="switch">
-                                            </td>
+{{--                                            <td>--}}
+{{--                                                <input type="checkbox" name="switch" lay-text="开启|停用" checked=""--}}
+{{--                                                       lay-skin="switch">--}}
+{{--                                            </td>--}}
                                             <td class="td-manage">
                                                 <button class="layui-btn layui-btn layui-btn-xs"
                                                         onclick="xadmin.open('编辑','{{ route('dep.edit', $child->id) }}', 500, 200)"><i
@@ -119,10 +119,10 @@
                                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         ├{{ $grandson->name }}
                                                     </td>
-                                                    <td>
-                                                        <input type="checkbox" name="switch" lay-text="开启|停用" checked=""
-                                                               lay-skin="switch">
-                                                    </td>
+{{--                                                    <td>--}}
+{{--                                                        <input type="checkbox" name="switch" lay-text="开启|停用" checked=""--}}
+{{--                                                               lay-skin="switch">--}}
+{{--                                                    </td>--}}
                                                     <td class="td-manage">
                                                         <button class="layui-btn layui-btn layui-btn-xs"
                                                                 onclick="xadmin.open('编辑','{{ route('dep.edit', $grandson->id) }}', 500, 200)"><i

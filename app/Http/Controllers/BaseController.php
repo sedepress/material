@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Department;
+use App\Models\Material;
+use App\User;
 use Illuminate\Http\Request;
 
 class BaseController extends Controller
@@ -14,5 +17,23 @@ class BaseController extends Controller
     protected function responseJson($code, $msg)
     {
         return response()->json(['code' => $code, 'msg' => $msg]);
+    }
+
+    protected function departments()
+    {
+        $departments = Department::where('level', 0)->get();
+        return $departments;
+    }
+
+    protected function users()
+    {
+        $users = User::where('status', true)->get();
+        return $users;
+    }
+
+    protected function materials()
+    {
+        $materials = Material::where('status', true)->get();
+        return $materials;
     }
 }
