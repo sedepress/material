@@ -109,7 +109,7 @@ class MaterialsReceivingRecordController extends BaseController
         DB::beginTransaction();
         try {
             $material = Material::find($materialsReceivingRecord->material_id);
-            
+
             if ($material->incrementStock($materialsReceivingRecord->amount) <= 0) {
                 throw new InvalidRequestException('该物品历史领取量不为负');
             }

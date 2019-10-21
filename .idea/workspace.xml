@@ -2,51 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7c4e09-7650-4970-b10a-fe08279d8e79" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/InternalException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/InvalidRequestException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MaterialController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MaterialsReceivingRecordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/MaterialRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/MaterialsReceivingRecordRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Libs/LogMes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Material.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/MaterialsLog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/MaterialsReceivingRecord.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/MaterialsReceivingRecordsLog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Search/MaterialSearch/Filters/Filter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Search/MaterialSearch/Filters/Name.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Search/MaterialSearch/MaterialSearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Search/UserSearch/Filters/Department.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Search/UserSearch/Filters/Filter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Search/UserSearch/Filters/Name.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Search/UserSearch/UserSearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_11_105630_create_materials_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_14_164712_create_materials_logs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_16_093250_create_materials_receiving_records_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_16_132150_create_materials_receiving_records_logs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/material/adjust_stock.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/material/create_and_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/material/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/materials_record/create_and_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/materials_record/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/create_and_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Material.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Material.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/debugbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/debugbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dep/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dep/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MaterialsReceivingRecordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MaterialsReceivingRecordController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +214,8 @@
       <workItem from="1570780545000" duration="5617000" />
       <workItem from="1570840779781" duration="14972000" />
       <workItem from="1571032067442" duration="28000" />
-      <workItem from="1571032152414" duration="44007000" />
+      <workItem from="1571032152414" duration="48627000" />
+      <workItem from="1571620666486" duration="1671000" />
     </task>
     <servers />
   </component>
