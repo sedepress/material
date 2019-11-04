@@ -61,3 +61,23 @@ Route::prefix('materials_record')->group(function () {
     Route::put('/{materials_receiving_record}', 'MaterialsReceivingRecordController@update')->name('materials_record.update');
     Route::delete('/{materials_receiving_record}', 'MaterialsReceivingRecordController@destroy')->name('materials_record.destroy');
 });
+
+////权限管理
+//Route::prefix('permission')->group(function () {
+//    Route::get('/', 'RoleController@index')->name('role.index');
+//    Route::get('/create', 'RoleController@create')->name('materials_record.create');
+//    Route::post('/', 'RoleController@store')->name('materials_record.store');
+//    Route::get('/{materials_receiving_record}/edit', 'RoleController@edit')->name('materials_record.edit');
+//    Route::put('/{materials_receiving_record}', 'RoleController@update')->name('materials_record.update');
+//    Route::delete('/{materials_receiving_record}', 'RoleController@destroy')->name('materials_record.destroy');
+//});
+//
+////角色管理
+//Route::prefix('role')->group(function () {
+//    Route::get('/', 'PermissionController@index')->name('role.index');
+//    Route::get('/create', 'PermissionController@create')->name('materials_record.create');
+//    Route::post('/', 'PermissionController@store')->name('materials_record.store');
+//    Route::get('/{materials_receiving_record}/edit', 'PermissionController@edit')->name('materials_record.edit');
+//    Route::put('/{materials_receiving_record}', 'PermissionController@update')->name('materials_record.update');
+//    Route::delete('/{materials_receiving_record}', 'PermissionController@destroy')->name('materials_record.destroy');
+//});

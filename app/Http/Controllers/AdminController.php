@@ -6,11 +6,13 @@ use App\Http\Requests\AdminRequest;
 use App\Models\Admin;
 use App\Libs\StatusCode;
 use Illuminate\Support\Facades\Hash;
+use Auth;
 
 class AdminController extends BaseController
 {
     public function index(Admin $admin)
     {
+        $this->authorize('superAdmin', Auth::user());
         $admins = Admin::paginate(10);
 
         return view('admin.index', compact('admins'));
@@ -18,11 +20,13 @@ class AdminController extends BaseController
 
     public function create(Admin $admin)
     {
+        $this->authorize('superAdmin', Auth::user());
         return view('admin.create_and_edit', compact('admin'));
     }
 
     public function store(AdminRequest $request, Admin $admin)
     {
+        $this->authorize('superAdmin', Auth::user());
         $admin->fill($request->all());
         $admin->save();
 
@@ -32,11 +36,13 @@ class AdminController extends BaseController
 
     public function edit(Admin $admin)
     {
+        $this->authorize('superAdmin', Auth::user());
         return view('admin.create_and_edit', compact('admin'));
     }
 
     public function update(AdminRequest $request, Admin $admin)
     {
+        $this->authorize('superAdmin', Auth::user());
         $admin->update($request->all());
 
         $msg = '修改成功';
@@ -45,6 +51,7 @@ class AdminController extends BaseController
 
     public function destroy(Admin $admin)
     {
+        $this->authorize('superAdmin', Auth::user());
         $admin->delete();
 
         $msg = '删除成功';

@@ -5,9 +5,11 @@ namespace App\Models;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Hash;
+use Spatie\Permission\Traits\HasRoles;
 
 class Admin extends Authenticatable
 {
+    use HasRoles;
     use Notifiable;
 
     protected $fillable = [
