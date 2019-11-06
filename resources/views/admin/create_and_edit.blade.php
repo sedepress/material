@@ -33,6 +33,15 @@
                         <span class="x-red">*</span>
                     </div>
                 </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label"><span class="x-red">*</span>角色</label>
+                    <div class="layui-input-block">
+                        @foreach($roles as $role)
+                            <input type="checkbox" name="role[]" lay-skin="primary" title="{{ $role->name }}" value="{{ $role->name }}"
+                            >
+                        @endforeach
+                    </div>
+                </div>
                 @if(!$admin->id)
                 <div class="layui-form-item">
                     <label for="L_pass" class="layui-form-label">

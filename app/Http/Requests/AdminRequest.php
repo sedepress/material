@@ -19,11 +19,13 @@ class AdminRequest extends Request
                     'nickname' => 'required|unique:admins',
                     'password' => 'required|between:6,20',
                     'repass'   => 'required|same:password',
+                    'role'     => 'required',
                 ];
             case 'PUT':
                 return [
                     'username' => 'required|unique:admins,username,' . $this->route('admin')->id,
                     'nickname' => 'required|unique:admins,nickname,' . $this->route('admin')->id,
+                    'role'     => 'required',
                 ];
             case 'PATCH':
                 return [

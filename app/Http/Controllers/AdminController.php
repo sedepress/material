@@ -7,6 +7,7 @@ use App\Models\Admin;
 use App\Libs\StatusCode;
 use Illuminate\Support\Facades\Hash;
 use Auth;
+use Spatie\Permission\Models\Role;
 
 class AdminController extends BaseController
 {
@@ -21,7 +22,9 @@ class AdminController extends BaseController
     public function create(Admin $admin)
     {
         $this->authorize('superAdmin', Auth::user());
-        return view('admin.create_and_edit', compact('admin'));
+        $roles = Role::all();
+
+        return view('admin.create_and_edit', compact('admin', 'roles'));
     }
 
     public function store(AdminRequest $request, Admin $admin)
@@ -29,6 +32,7 @@ class AdminController extends BaseController
         $this->authorize('superAdmin', Auth::user());
         $admin->fill($request->all());
         $admin->save();
+        $admin->assignRole($request->input('role'));
 
         $msg = '创建成功';
         return $this->responseJson(StatusCode::SUCCESS, $msg);
@@ -37,7 +41,10 @@ class AdminController extends BaseController
     public function edit(Admin $admin)
     {
         $this->authorize('superAdmin', Auth::user());
-        return view('admin.create_and_edit', compact('admin'));
+        dump(Auth::user()->getAllRoles());die;
+        $roles = Role::all();
+
+        return view('admin.create_and_edit', compact('admin', 'roles'));
     }
 
     public function update(AdminRequest $request, Admin $admin)
