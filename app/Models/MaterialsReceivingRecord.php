@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class MaterialsReceivingRecord extends Model
 {
     protected $fillable = [
-        'material_id', 'user_id', 'amount'
+        'material_id', 'user_id', 'amount', 'created_at'
     ];
 
     public function material()

@@ -23,4 +23,9 @@ class User extends Model
     {
         return $this->hasMany(MaterialsReceivingRecord::class);
     }
+
+    public function lastPickUpTime()
+    {
+        return $this->hasMany(MaterialsReceivingRecord::class)->orderBy('created_at')->limit(1);
+    }
 }

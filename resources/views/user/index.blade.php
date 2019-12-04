@@ -67,7 +67,7 @@
                                     <td>{{ $loop->iteration }}</td>
                                     <td>{{ $user->name }}</td>
                                     <td>{{ $user->department->name }}</td>
-                                    <td>{{ $user->last_login ?? '暂无' }}</td>
+                                    <td>{{ $user->lastPickUpTime[0]->created_at ?? '暂无' }}</td>
                                     @if ($user->status)
                                         <td class="td-status">
                                             <span class="layui-btn layui-btn-normal layui-btn-mini">在职</span></td>

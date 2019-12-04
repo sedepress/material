@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7c4e09-7650-4970-b10a-fe08279d8e79" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Material.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Material.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/AdminRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/AdminRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/create_and_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/create_and_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/MaterialsReceivingRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MaterialsReceivingRecord.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Search/UserSearch/UserSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Search/UserSearch/UserSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,8 +151,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="添加" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -182,18 +188,6 @@
       <recent name="E:\Code\Material\resources\js" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="PHP Web Page.learn">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -206,6 +200,18 @@
       <item itemvalue="PHP Web Page.learn" />
       <item itemvalue="PHPUnit.phpunit.xml" />
     </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -245,7 +251,16 @@
       <workItem from="1572583875407" duration="2544000" />
       <workItem from="1572829555575" duration="37000" />
       <workItem from="1572829632182" duration="615000" />
-      <workItem from="1572847986990" duration="9132000" />
+      <workItem from="1572847986990" duration="17166000" />
+      <workItem from="1573434276179" duration="1369000" />
+      <workItem from="1574135788545" duration="158000" />
+      <workItem from="1574135995273" duration="1395000" />
+      <workItem from="1574389200964" duration="1701000" />
+      <workItem from="1575339560652" duration="97000" />
+      <workItem from="1575339699447" duration="13000" />
+      <workItem from="1575339729956" duration="32000" />
+      <workItem from="1575339786733" duration="10000" />
+      <workItem from="1575440778474" duration="2681000" />
     </task>
     <servers />
   </component>
@@ -267,5 +282,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1575339795327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575339795327" />
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1575339786835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575339786835" />
   </component>
 </project>

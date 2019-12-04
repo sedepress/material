@@ -10,7 +10,7 @@ class UserSearch
 {
     public static function apply(Request $filters)
     {
-        $query = static::applyDecoratorsFromRequest($filters, User::query()->with('department:id,name'));
+        $query = static::applyDecoratorsFromRequest($filters, User::query()->with(['department:id,name', 'lastPickUpTime']));
 
         return $query;
     }
